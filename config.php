@@ -1,10 +1,10 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://localhost/opencart/');
+define('HTTP_SERVER',  $_SERVER['HTTP_HOST']);
 
 // HTTPS
-define('HTTPS_SERVER', 'http://localhost/opencart/');
-define('DIR_FOLDER', 'C:\xampp\htdocs/opencart');
+define('HTTPS_SERVER',  $_SERVER['HTTP_HOST']);
+define('DIR_FOLDER', $_SERVER['DOCUMENT_ROOT']);
 // DIR
 define('DIR_APPLICATION', DIR_FOLDER.'/catalog/');
 
