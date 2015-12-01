@@ -983,6 +983,7 @@ h2.title {
   padding-right: 0;
   background-color: transparent;
   border: 0;
+  outline: none;
 }
 
 .choose ul li button i{

@@ -72,5 +72,4 @@
         </div>
     </div>
 </footer>
-<a id="scrollUp" href="#top" style="position: fixed; "><i class="fa fa-angle-up"></i></a>
 </body></html>

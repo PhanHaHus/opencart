@@ -633,3 +633,6 @@ input[type="checkbox"]:checked::after, .checkbox input[type="checkbox"]:checked:
 #logo{
     max-width: 30%;
 }
+#reports,#customer,#sale,#dashboard,#marketing,#stats{
+    display: none !important;
+}

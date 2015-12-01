@@ -1,2 +1,2 @@
-<footer id="footer"><br /><?php echo $text_version; ?></footer></div>
+<footer id="footer"><br />Hi Admin</footer></div>
 </body></html>
