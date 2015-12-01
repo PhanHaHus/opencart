@@ -446,3 +446,4 @@
 2015-12-01 5:43:28 - PHP Notice:  Indirect modification of overloaded property ControllerModulePavmegamenubase::$data has no effect in D:\xampp1\htdocs\opencart\admin\controller\module\pavmegamenubase.php on line 404
 2015-12-01 5:43:28 - PHP Notice:  Indirect modification of overloaded property ControllerModulePavmegamenubase::$data has no effect in D:\xampp1\htdocs\opencart\admin\controller\module\pavmegamenubase.php on line 405
 2015-12-01 5:43:28 - PHP Notice:  Indirect modification of overloaded property ControllerModulePavmegamenubase::$data has no effect in D:\xampp1\htdocs\opencart\admin\controller\module\pavmegamenubase.php on line 406
+2015-12-01 8:27:09 - PHP Notice:  Use of undefined constant sorts - assumed 'sorts' in D:\xampp1\htdocs\opencart\catalog\view\theme\default\template\product\allproduct.tpl on line 30
