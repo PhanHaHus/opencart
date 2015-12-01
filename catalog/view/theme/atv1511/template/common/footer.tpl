@@ -22,7 +22,6 @@
                             <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
                             <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
                         </ul>
-
                     </div>
                 </div>
                 <div class="col-sm-2">
@@ -67,7 +66,7 @@
         <div class="container">
             <div class="row">
                 <?php echo $powered; ?>
-                <p class="pull-right">Designed by <span><a target="" href="#">hapt</a></span></p>
+                <p class="pull-right">Designed by <span><a href="#">hapt</a></span></p>
             </div>
         </div>
     </div>

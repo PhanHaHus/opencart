@@ -1,8 +1,8 @@
 <?php
 // HTTP
-$server = 'http://'.$_SERVER['HTTP_HOST'];
+$server = 'http://'.$_SERVER['HTTP_HOST'].'/';
 
-define('HTTP_SERVER',  $server.'/admin/');
+define('HTTP_SERVER',  $server.'admin/');
 // HTTPS
 define('HTTPS_SERVER',  $server);
 define('DIR_FOLDER', $_SERVER['DOCUMENT_ROOT']);
