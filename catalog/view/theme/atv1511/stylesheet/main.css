@@ -2549,5 +2549,12 @@ h2.title {
 }
 
 
-#logo{
+.product-image-wrapper:hover {
+    box-shadow: 0 8px 8px rgba(0,0,0,0.1),0 4px 4px rgba(0,0,0,0.08);
+}
+.product-image-wrapper {
+    padding: 10px;
+}
+.nav.nav-pills.nav-justified{
+    padding-top: 5px;
 }

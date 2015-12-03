@@ -52,6 +52,7 @@
         <?php } ?>
     </head>
     <body class="<?php echo $class; ?>">
+        <div class="content">
         <header id="header">
             <div class="header_top">
                 <div class="container">
