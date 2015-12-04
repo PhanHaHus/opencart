@@ -18,13 +18,21 @@ $(document).ready(function () {
             zIndex: 2147483647 // Z-Index for the overlay
         });
     });
-    $(".productinfo img").hover(function (e) {
-        $("#large").css("top", (e.pageY + 5) + "px")
-                .css("left", (e.pageX + 5) + "px")
-                .html("<img src=" + $(this).attr("src") + " alt='Large Image' /><br/>")
-                .fadeIn("slow");
-    }, function () {
-        $("#large").fadeOut("fast");
+    $(".productinfo img").hover(function(e){
+        $(".productinfo #large").css("top","0px")
+            .css("left","0px")					
+            .html("<img src="+ $(this).attr("src") +" alt='Large Image' /><br/>")
+            .fadeIn("slow");
+        }, function(){
+            $(".productinfo #large").fadeOut("fast");
     });
+//    $(".productinfo img").hover(function (e) {
+//        $("#large").css("top", (e.pageY + 5) + "px")
+//                .css("left", (e.pageX + 5) + "px")
+//                .html("<img src=" + $(this).attr("src") + " alt='Large Image' /><br/>")
+//                .fadeIn("slow");
+//    }, function () {
+//        $("#large").fadeOut("fast");
+//    });
 
 });
