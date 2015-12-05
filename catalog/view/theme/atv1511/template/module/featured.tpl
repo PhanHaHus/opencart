@@ -6,11 +6,7 @@
             <div class="product-image-wrapper">
                 <div class="single-products">
                     <div class="productinfo text-center">
-                        <a href="<?php echo $product['href']; ?>">
-                            <img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" />
-                            <p id="large"></p>
-                        </a>
-                        <p id="large"></p>
+                        <a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a>
                         <?php if ($product['price']) { ?>
                         <h2><?php echo $product['price']; ?></h2>
                         <?php } ?>

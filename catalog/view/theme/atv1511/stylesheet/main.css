@@ -2565,3 +2565,12 @@ h2.title {
     background: #333333;	
     padding: 5px;
 }
+
+#preview{
+    position:absolute;
+    /*border:1px solid #ccc;*/
+    background:#333;
+    padding:5px;
+    display:none;
+    color:#fff;
+}

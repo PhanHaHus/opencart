@@ -6,10 +6,7 @@
           <div class="product-image-wrapper">
               <div class="single-products">
                   <div class="productinfo text-center">
-                      <a href="<?php echo $product['href']; ?>">
-                          <img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" />
-                          <p id="large"></p>
-                      </a>
+                      <a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a>
                       <h2><?php echo $product['price']; ?></h2>
                       <p><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></p>
                       <button type="button"  class="btn btn-default add-to-cart" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>

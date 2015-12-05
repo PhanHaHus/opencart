@@ -1,4 +1,31 @@
 /*scroll to top*/
+this.imagePreview = function () {
+    /* CONFIG */
+    xOffset = 10;
+    yOffset = 30;
+    // these 2 variable determine popup's distance from the cursor
+    // you might want to adjust to get the right result
+    /* END CONFIG */
+    $("img.preview").hover(function (e) {
+        console.log($(this).attr('src'));
+        this.t = this.title;
+        this.title = "";
+        var c = (this.t != "") ? "<br/>" + this.t : "";
+        $("body").append("<p id='preview'><img src='" + $(this).attr('src') + "' alt='Image preview' />" + c + "</p>");
+        $("#preview")
+                .css("top", (e.pageY - xOffset) + "px")
+                .css("left", (e.pageX + yOffset) + "px")
+                .fadeIn("fast");
+    },function () {
+        this.title = this.t;
+        $("#preview").remove();
+    });
+    $("img.preview").mousemove(function (e) {
+        $("#preview")
+        .css("top", (e.pageY - xOffset) + "px")
+        .css("left", (e.pageX + yOffset) + "px");
+    });
+};
 $(document).ready(function () {
     $(function () {
         $.scrollUp({
@@ -18,21 +45,5 @@ $(document).ready(function () {
             zIndex: 2147483647 // Z-Index for the overlay
         });
     });
-    $(".productinfo img").hover(function(e){
-        $(".productinfo #large").css("top","0px")
-            .css("left","0px")					
-            .html("<img src="+ $(this).attr("src") +" alt='Large Image' /><br/>")
-            .fadeIn("slow");
-        }, function(){
-            $(".productinfo #large").fadeOut("fast");
-    });
-//    $(".productinfo img").hover(function (e) {
-//        $("#large").css("top", (e.pageY + 5) + "px")
-//                .css("left", (e.pageX + 5) + "px")
-//                .html("<img src=" + $(this).attr("src") + " alt='Large Image' /><br/>")
-//                .fadeIn("slow");
-//    }, function () {
-//        $("#large").fadeOut("fast");
-//    });
-
+    imagePreview();
 });

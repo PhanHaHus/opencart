@@ -447,3 +447,39 @@
 2015-12-01 5:43:28 - PHP Notice:  Indirect modification of overloaded property ControllerModulePavmegamenubase::$data has no effect in D:\xampp1\htdocs\opencart\admin\controller\module\pavmegamenubase.php on line 405
 2015-12-01 5:43:28 - PHP Notice:  Indirect modification of overloaded property ControllerModulePavmegamenubase::$data has no effect in D:\xampp1\htdocs\opencart\admin\controller\module\pavmegamenubase.php on line 406
 2015-12-01 8:27:09 - PHP Notice:  Use of undefined constant sorts - assumed 'sorts' in D:\xampp1\htdocs\opencart\catalog\view\theme\default\template\product\allproduct.tpl on line 30
+2015-12-04 17:32:47 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:32:47 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:32:47 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:32:47 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:32:47 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:32:47 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:36:52 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:36:52 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:36:52 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:36:52 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:36:52 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:36:52 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:35 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:35 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:35 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:35 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:35 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:35 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:46 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:46 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:46 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:46 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:46 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-04 17:37:46 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:18:23 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:18:23 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:18:23 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:18:23 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:18:23 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:18:23 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:25:37 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:25:37 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:25:37 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:25:37 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:25:37 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
+2015-12-05 4:25:37 - PHP Notice:  Undefined index: image-src in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\featured.tpl on line 10
