@@ -664,7 +664,7 @@ ul.sub-menu {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  margin: 0 auto 30px;
+  margin: 7px auto 30px;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -861,17 +861,20 @@ h2.title {
   right: 0;
 }
 
-.productinfo h2{
-	color: #FE980F;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
+.productinfo .price{
+    color: #FE980F;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.productinfo h4{
+    font-size: 14px;
 }
 .product-overlay h2{
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 

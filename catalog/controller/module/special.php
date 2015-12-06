@@ -2,7 +2,7 @@
 class ControllerModuleSpecial extends Controller {
 	public function index($setting) {
 		$this->load->language('module/special');
-
+                $setting['limit'] = 12;
 		$data['heading_title'] = $this->language->get('heading_title');
 
 		$data['text_tax'] = $this->language->get('text_tax');

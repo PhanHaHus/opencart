@@ -1,6 +1,7 @@
 <?php
 class ControllerModuleLatest extends Controller {
 	public function index($setting) {
+                $setting['limit']=12;
 		$this->load->language('module/latest');
 
 		$data['heading_title'] = $this->language->get('heading_title');
@@ -61,6 +62,7 @@ class ControllerModuleLatest extends Controller {
 				$data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,
+                                        'image-src' => HTTPS_SERVER.'/image/'.$result['image'],
 					'name'        => $result['name'],
 					'description' => utf8_substr(strip_tags(html_entity_decode($result['description'], ENT_QUOTES, 'UTF-8')), 0, $this->config->get('config_product_description_length')) . '..',
 					'price'       => $price,

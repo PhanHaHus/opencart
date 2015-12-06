@@ -154,9 +154,15 @@
                 </div>
               </div>
               <div class="form-group">
-                <label class="col-sm-2 control-label" for="input-price"><?php echo $entry_price; ?></label>
+                <label class="col-sm-2 control-label" for="input-price">Giá liên hệ 1</label>
                 <div class="col-sm-10">
-                  <input type="text" name="price" value="<?php echo $price; ?>" placeholder="<?php echo $entry_price; ?>" id="input-price" class="form-control" />
+                  <input type="text" name="price" value="<?php echo $price; ?>" placeholder="<?php echo $entry_price; ?> 1" id="input-price" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label" for="input-price">Giá liên hệ 2</label>
+                <div class="col-sm-10">
+                  <input type="text" name="price2" value="<?php echo $price2; ?>" placeholder="<?php echo $entry_price; ?> 2" id="input-price2" class="form-control" />
                 </div>
               </div>
               <div class="form-group">

@@ -2,7 +2,7 @@
 class ControllerModuleStore extends Controller {
 	public function index() {
 		$status = true;
-
+                
 		if ($this->config->get('store_admin')) {
 			$this->user = new User($this->registry);
 
