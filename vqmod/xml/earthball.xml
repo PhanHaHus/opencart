@@ -1,0 +1,117 @@
+<modification>
+
+	<id>Earthball for OpenCart 1.5.0.x</id>
+	<version>1.0.0</version>
+	<vqmver>1.2.3</vqmver>
+	<author>Fido-X</author>
+
+	<file name="admin/controller/common/header.php">
+		<operation>
+			<search position="after" index="1"><![CDATA[
+			$this->data['text_zone'] = $this->language->get('text_zone');
+			]]></search>
+			<add><![CDATA[
+			// Who's Online and Counter Statistics
+			$this->load->language('module/earthball');
+			$this->data['earthball_dashboard_status'] = $this->config->get('earthball_dashboard_status');
+			$this->data['earthball_auto_refresh'] = $this->config->get('earthball_auto_refresh');
+			$this->data['text_whos_online'] = $this->language->get('text_whos_online');
+			$this->data['text_counter_statistics'] = $this->language->get('text_counter_statistics');
+			// end Who's Online and Counter Statistics
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after" index="1"><![CDATA[
+			$this->data['zone'] = $this->url->link('localisation/zone', 'token=' . $this->session->data['token'], 'SSL');
+			]]></search>
+			<add><![CDATA[
+			// Who's Online and Counter Statistics
+			$this->data['whos_online'] = $this->url->link('module/earthball/whos_online', 'token=' . $this->session->data['token'], 'SSL');
+			$this->data['counter_statistics'] = $this->url->link('module/earthball/counter_statistics', 'token=' . $this->session->data['token'], 'SSL');
+			// end Who's Online and Counter Statistics
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/view/template/common/header.tpl">
+		<operation>
+			<search position="after" index="1"><![CDATA[
+			<head>
+			]]></search>
+			<add trim="true"><![CDATA[
+			<?php if ($earthball_dashboard_status && isset($this->request->get['route'])) { ?>
+			<?php if (($this->request->get['route'] == 'common/home') || ($this->request->get['route'] == 'module/earthball/whos_online') || ($this->request->get['route'] == 'module/earthball/counter_statistics')) { ?>
+			<meta http-equiv="refresh" content="<?php echo $earthball_auto_refresh; ?>" />
+			<?php } ?>
+			<?php } ?>
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after" index="1"><![CDATA[
+			<link rel="stylesheet" type="text/css" href="view/stylesheet/stylesheet.css" />
+			]]></search>
+			<add trim="true"><![CDATA[
+			<link rel="stylesheet" type="text/css" href="view/stylesheet/whos_online.css" />
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after" index="1"><![CDATA[
+			<li><a href="<?php echo $report_purchased; ?>"><?php echo $text_report_purchased; ?></a></li>
+			]]></search>
+			<add><![CDATA[
+			<li><a href="<?php echo $whos_online; ?>"><?php echo $text_whos_online; ?></a></li>
+			<li><a href="<?php echo $counter_statistics; ?>"><?php echo $text_counter_statistics; ?></a></li>
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/default/template/common/header.tpl">
+		<operation>
+			<search position="after" index="1"><![CDATA[
+			<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/stylesheet.css" />
+			]]></search>
+			<add trim="true"><![CDATA[
+			<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/earthball.css" />
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/controller/common/home.php">
+		<operation>
+			<search position="after" index="1"><![CDATA[
+			$this->data['entry_range'] = $this->language->get('entry_range');
+			]]></search>
+			<add><![CDATA[
+			$this->data['earthball_dashboard_status'] = $this->config->get('earthball_dashboard_status');
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/view/template/common/home.tpl">
+		<operation>
+			<search position="before" index="1"><![CDATA[
+			<div class="latest">
+			]]></search>
+			<add><![CDATA[
+			<?php if ($earthball_dashboard_status) { ?>
+			<div id="whos_online" style="margin-bottom: 20px;"></div>
+			<?php } ?>
+			]]></add>
+		</operation>
+		<operation>
+			<search position="before" index="1"><![CDATA[
+			<?php echo $footer; ?>
+			]]></search>
+			<add><![CDATA[
+			<script type="text/javascript"><!--
+			$(document).ready(function() {
+				<?php if ($earthball_dashboard_status) { ?>
+				$('#whos_online').load('index.php?route=module/earthball/online_dashboard&token=<?php echo $token; ?>');
+				<?php } ?>
+			});
+			//--></script>
+			]]></add>
+		</operation>
+	</file>
+
+</modification>

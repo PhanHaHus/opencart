@@ -1,0 +1,49 @@
+/* Who's Online */
+.online_boxtop {
+	background: #547C96;
+	color: #FFFFFF;
+	border-bottom: 1px solid #8EAEC3;
+}
+.online_boxtop .heading {
+	padding: 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.online_box {
+	background: #FCFCFC;
+	border: 1px solid #8EAEC3;
+	padding: 10px;
+}
+.online_box h3 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	color: #003A88;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 1px solid #003A88;
+}
+.online_box h4 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+	color: #003A88;
+	font-weight: bold;
+	font-size: 12px;
+	border-bottom: 1px solid #003A88;
+}
+.online_box .chart {
+	width: 580px;
+	height: 210px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.online {
+	display: block;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+.online p {
+	margin: 0px;
+}

@@ -1,11 +1,11 @@
 <?php
 // HTTP
-$server = 'http://localhost/opencart/';
+$server = 'http://'.$_SERVER['HTTP_HOST'].'/';
 define('HTTP_SERVER',  $server);
 
 // HTTPS
 define('HTTPS_SERVER', $server);
-define('DIR_FOLDER', $_SERVER['DOCUMENT_ROOT'].'/opencart');
+define('DIR_FOLDER', $_SERVER['DOCUMENT_ROOT']);
 // DIR
 define('DIR_APPLICATION', DIR_FOLDER.'/catalog/');
 
@@ -25,6 +25,6 @@ define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_DATABASE', 'thungloa');
+define('DB_DATABASE', 'loathung');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
