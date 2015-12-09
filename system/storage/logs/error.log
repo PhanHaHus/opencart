@@ -1062,3 +1062,120 @@
 2015-12-07 16:10:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleArticle::$data has no effect in C:\xampp\htdocs\opencart\admin\controller\module\article.php on line 123
 2015-12-07 16:10:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleArticle::$data has no effect in C:\xampp\htdocs\opencart\admin\controller\module\article.php on line 129
 2015-12-07 16:10:43 - PHP Notice:  Indirect modification of overloaded property ControllerModuleArticle::$data has no effect in C:\xampp\htdocs\opencart\admin\controller\module\article.php on line 132
+2015-12-08 16:45:41 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 7
+2015-12-08 16:49:37 - PHP Notice:  Error: Unknown column 'id' in 'field list'<br />Error No: 1054<br />select id,image from oc_product RIGHT JOIN oc_product_special
+                    ON oc_product.product_id=oc_product_special.product_id;  in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 41
+2015-12-08 16:49:37 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 6
+2015-12-08 16:49:37 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 7
+2015-12-08 16:49:52 - PHP Notice:  Error: Column 'product_id' in field list is ambiguous<br />Error No: 1052<br />select product_id,image from oc_product RIGHT JOIN oc_product_special
+                    ON oc_product.product_id=oc_product_special.product_id;  in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 41
+2015-12-08 16:49:52 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 6
+2015-12-08 16:49:52 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 7
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:57:50 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 16:58:53 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 9
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:00:07 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:04:22 - PHP Notice:  Error: Unknown column 'id' in 'field list'<br />Error No: 1054<br />select oc_product_description.name,oc_product.image,oc_product.price,oc_product.price2 from oc_product JOIN oc_product_description
+    ON oc_product_description.product_id = oc_product.product_id  IN ( SELECT id from  oc_product_special)
+     in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 41
+2015-12-09 17:04:22 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 7
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8

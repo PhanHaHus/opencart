@@ -2,7 +2,7 @@
     <h2 class="title text-center"><?php echo $heading_title; ?></h2>
     <div class="row">
     <?php foreach ($products as $product) { ?>
-      <div class="product-layout col-lg-3 col-md-3 col-sm-3 col-xs-12">
+      <div class="product-layout col-lg-4 col-md-4 col-sm-4 col-xs-12">
           <div class="product-image-wrapper">
                 <div class="single-products">
                     <div class="productinfo text-center">

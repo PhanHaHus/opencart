@@ -55,29 +55,3 @@
     </div>
 </aside>
 <?php } ?>
-<style>
-    .online1 {
-        background: url(http://thungloahanoi.com/skins/igloa/online1.png) no-repeat left center;
-        height: 26px;
-        line-height: 26px;
-        padding-left: 19px;
-        font-size: 12px;
-    }
-    .online2 {
-        background: url(http://thungloahanoi.com/skins/igloa/online2.png) no-repeat left center;
-        height: 26px;
-        line-height: 26px;
-        padding-left: 19px;
-        font-size: 12px;
-    }
-    .online3 {
-        background: url(http://thungloahanoi.com/skins/igloa/online3.png) no-repeat left center;
-        height: 26px;
-        line-height: 26px;
-        padding-left: 19px;
-        font-size: 12px;
-    }
-    .cstyletabitem{
-        margin-top: 22px;
-    }
-</style>

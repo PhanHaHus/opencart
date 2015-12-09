@@ -1,8 +1,17 @@
 <?php
 class ControllerCommonColumnRight extends Controller {
 	public function index() {
+         $var = $this->db->query("select oc_product.product_id,oc_product.image,oc_product.price,oc_product.price2
+                ,oc_product_description.name 
+                from oc_product 
+                JOIN oc_product_special
+                 ON oc_product.product_id=oc_product_special.product_id 
+                JOIN oc_product_description
+                  ON oc_product_description.product_id = oc_product.product_id GROUP BY oc_product_description.product_id   
+                ");
+                $special_products = $var->rows;//return rows from query result.
 		$this->load->model('design/layout');
-
+                
 		if (isset($this->request->get['route'])) {
 			$route = (string)$this->request->get['route'];
 		} else {
@@ -60,7 +69,7 @@ class ControllerCommonColumnRight extends Controller {
 				}
 			}
 		}
-
+                $data['special_products'] = $special_products;
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_right.tpl')) {
 			return $this->load->view($this->config->get('config_template') . '/template/common/column_right.tpl', $data);
 		} else {
