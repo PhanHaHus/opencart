@@ -10,6 +10,7 @@
     <div class="panel-group category-products" id="accordian"><!--category-productsr-->
         <div class="content">
             <div class="product-special productinfo">
+                <marquee direction="up">
                 <?php foreach ($special_products as $special_product) { ?>
                     <div class="img-product">
                         <a href="<?php echo $special_product['href']; ?>">
@@ -19,6 +20,7 @@
                         <span class="price"><?php echo $special_product['price']; ?> VND</span>
                     </div>
                 <?php } ?>
+                </marquee>
             </div>
         </div>
 </aside>

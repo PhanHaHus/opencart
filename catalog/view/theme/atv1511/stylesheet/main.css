@@ -676,6 +676,9 @@ ul.sub-menu {
 #column-right .img-product img{
     max-width: 80px;
 }
+#column-right .category-products{
+    padding-bottom: 0px;
+}
 .left-sidebar h2:after, h2.title:after,#column-right h2:after{
 	content: " ";
 	position: absolute;
