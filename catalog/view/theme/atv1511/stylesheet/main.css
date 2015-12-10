@@ -652,7 +652,9 @@ ul.sub-menu {
 .right {
   right: 0;
 }
-
+.cstyletabitem .category-products{
+    padding-left: 40px;
+}
 .category-products {
   border: 1px solid #F7F7F0;
   margin-bottom: 35px;
@@ -690,7 +692,7 @@ ul.sub-menu {
 	z-index: -2;
 }
 
-.left-sidebar h2:before{
+.left-sidebar h2:before,#column-right h2:before{
 	content: " ";
 	position: absolute;
 	background: #fff;
