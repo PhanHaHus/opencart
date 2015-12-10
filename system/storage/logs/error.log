@@ -1179,3 +1179,6 @@
 2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
 2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
 2015-12-09 17:09:46 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 8
+2015-12-10 16:06:13 - PHP Warning:  Illegal string offset 'image' in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 16
+2015-12-10 16:06:13 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 17
+2015-12-10 16:06:13 - PHP Warning:  Illegal string offset 'price' in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 18

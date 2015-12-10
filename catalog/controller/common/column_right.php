@@ -7,9 +7,13 @@ class ControllerCommonColumnRight extends Controller {
                 JOIN oc_product_special
                  ON oc_product.product_id=oc_product_special.product_id 
                 JOIN oc_product_description
-                  ON oc_product_description.product_id = oc_product.product_id GROUP BY oc_product_description.product_id   
+                  ON oc_product_description.product_id = oc_product.product_id GROUP BY oc_product_description.product_id LIMIT 5  
                 ");
                 $special_products = $var->rows;//return rows from query result.
+                foreach($special_products as $key => $special_product){
+                    $special_products[$key]['href']=$this->url->link('product/product', 'product_id=' . $special_product['product_id']);
+                }
+                
 		$this->load->model('design/layout');
                 
 		if (isset($this->request->get['route'])) {

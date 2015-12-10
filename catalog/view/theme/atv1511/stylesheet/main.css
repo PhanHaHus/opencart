@@ -872,6 +872,20 @@ h2.title {
     font-weight: 400;
     font-size: 14px;
 }
+.img-product{
+    position: relative;
+    margin-bottom: 54px;
+    margin-top: 10px;
+}
+.product-special.productinfo .price{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+    bottom: -3px;
+    right: -10px;
+}
+
 .productinfo h4{
     font-size: 14px;
 }

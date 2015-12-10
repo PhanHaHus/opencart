@@ -9,16 +9,16 @@
     <h2>Sản phẩm đặc biệt</h2>
     <div class="panel-group category-products" id="accordian"><!--category-productsr-->
         <div class="content">
-            <marquee direction="up">
-                <div class="product-special">
-                    <?php foreach ($special_products as $special_product) { ?>
+            <div class="product-special productinfo">
+                <?php foreach ($special_products as $special_product) { ?>
                     <div class="img-product">
-                        <img src="<?php echo 'http://'.$_SERVER['HTTP_HOST'].'/opencart/image/'.$special_product['image']; ?>">
-                        <?php echo $special_product['name']; ?><br>
-                        <?php echo $special_product['price']; ?>
+                        <a href="<?php echo $special_product['href']; ?>">
+                            <img src="<?php echo 'http://'.$_SERVER['HTTP_HOST'].'/opencart/image/'.$special_product['image']; ?>">
+                            <?php echo $special_product['name']; ?><br>
+                        </a>
+                        <span class="price"><?php echo $special_product['price']; ?> VND</span>
                     </div>
-                    <?php } ?>
-                </div>
-            </marquee>
+                <?php } ?>
+            </div>
         </div>
 </aside>
