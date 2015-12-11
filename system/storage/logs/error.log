@@ -1182,3 +1182,25 @@
 2015-12-10 16:06:13 - PHP Warning:  Illegal string offset 'image' in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 16
 2015-12-10 16:06:13 - PHP Warning:  Illegal string offset 'name' in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 17
 2015-12-10 16:06:13 - PHP Warning:  Illegal string offset 'price' in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 18
+2015-12-11 2:56:53 - PHP Notice:  Error: Unknown column 'oc_product.price2' in 'field list'<br />Error No: 1054<br />select oc_product.product_id,oc_product.image,oc_product.price,oc_product.price2
+                ,oc_product_description.name 
+                from oc_product 
+                JOIN oc_product_special
+                 ON oc_product.product_id=oc_product_special.product_id 
+                JOIN oc_product_description
+                  ON oc_product_description.product_id = oc_product.product_id GROUP BY oc_product_description.product_id LIMIT 5  
+                 in D:\xampp1\htdocs\opencart\system\library\db\mysqli.php on line 41
+2015-12-11 2:56:53 - PHP Notice:  Trying to get property of non-object in D:\xampp1\htdocs\opencart\catalog\controller\common\column_right.php on line 12
+2015-12-11 2:56:53 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp1\htdocs\opencart\catalog\controller\common\column_right.php on line 13
+2015-12-11 2:56:53 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp1\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 14
+2015-12-11 3:29:33 - PHP Notice:  Error: Unknown column 'oc_product.price2' in 'field list'<br />Error No: 1054<br />select oc_product.product_id,oc_product.image,oc_product.price,oc_product.price2
+                ,oc_product_description.name 
+                from oc_product 
+                JOIN oc_product_special
+                 ON oc_product.product_id=oc_product_special.product_id 
+                JOIN oc_product_description
+                  ON oc_product_description.product_id = oc_product.product_id GROUP BY oc_product_description.product_id LIMIT 5  
+                 in D:\xampp1\htdocs\opencart\system\library\db\mysqli.php on line 41
+2015-12-11 3:29:33 - PHP Notice:  Trying to get property of non-object in D:\xampp1\htdocs\opencart\catalog\controller\common\column_right.php on line 12
+2015-12-11 3:29:33 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp1\htdocs\opencart\catalog\controller\common\column_right.php on line 13
+2015-12-11 3:29:33 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp1\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 14
