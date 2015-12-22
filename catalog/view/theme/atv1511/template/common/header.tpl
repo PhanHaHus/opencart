@@ -29,9 +29,12 @@
         <link href="catalog/view/theme/atv1511/stylesheet/animate.css" rel="stylesheet">
         <link href="catalog/view/theme/atv1511/stylesheet/responsive.css" rel="stylesheet">
         <link href="catalog/view/theme/atv1511/stylesheet/main.css" rel="stylesheet">
+        <link href="catalog/view/theme/atv1511/stylesheet/swiper.min.css" rel="stylesheet">
+        
         <script src="catalog/view/theme/atv1511/js/html5shiv.js"></script>
         <script src="catalog/view/theme/atv1511/js/jquery.scrollUp.min.js"></script>
         <script src="catalog/view/theme/atv1511/js/main.js"></script>
+        <script src="catalog/view/theme/atv1511/js/swiper.min.js"></script>
         <!-- <script src="catalog/view/theme/atv1511/js/respond.min.js"></script> -->
         <!-- <link href="catalog/view/theme/atv1511/stylesheet/stylesheet.css" rel="stylesheet"> -->
         <!-- <link href="catalog/view/theme/atv1511/stylesheet/atv1511.css" rel="stylesheet"> -->
