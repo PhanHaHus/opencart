@@ -1217,3 +1217,5 @@
 2015-12-30 16:41:24 - PHP Notice:  Undefined index: price2 in C:\xampp\htdocs\opencart\admin\controller\catalog\product.php on line 1416
 2015-12-30 16:41:24 - PHP Notice:  Undefined index: price2 in C:\xampp\htdocs\opencart\admin\controller\catalog\product.php on line 1416
 2015-12-30 16:41:24 - PHP Notice:  Undefined index: price2 in C:\xampp\htdocs\opencart\admin\controller\catalog\product.php on line 1416
+2015-12-30 17:38:51 - PHP Notice:  Undefined variable: special_products in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\html.tpl on line 10
+2015-12-30 17:38:52 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\module\html.tpl on line 10

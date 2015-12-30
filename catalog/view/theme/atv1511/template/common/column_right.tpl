@@ -35,7 +35,7 @@
                         direction: 'vertical',
                         'slidesPerView': 1,
                         'autoplay': true,
-                        'speed': 2000,
+                        'speed': 3000,
                         'height': 150,
                         'effect': "slide",
                         'paginationHide':true,
