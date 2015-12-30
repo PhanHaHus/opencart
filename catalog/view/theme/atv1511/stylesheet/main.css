@@ -1593,7 +1593,9 @@ h2.title {
 .shop-menu-top .cart_box{
     float: left;
 }
-
+#search{
+    margin-top: 25px;
+}
 .search_box #search input{
     float: left;
     border-top-right-radius: 0;
@@ -2604,21 +2606,21 @@ h2.title {
     color:#fff;
 }
 .online1 {
-        background: url(http://thungloahanoi.com/skins/igloa/online1.png) no-repeat left center;
+        background: url(../image/online1.png) no-repeat left center;
         height: 26px;
         line-height: 26px;
         padding-left: 19px;
         font-size: 12px;
     }
     .online2 {
-        background: url(http://thungloahanoi.com/skins/igloa/online2.png) no-repeat left center;
+        background: url(../image/online2.png) no-repeat left center;
         height: 26px;
         line-height: 26px;
         padding-left: 19px;
         font-size: 12px;
     }
     .online3 {
-        background: url(http://thungloahanoi.com/skins/igloa/online3.png) no-repeat left center;
+        background: url(../image/online3.png) no-repeat left center;
         height: 26px;
         line-height: 26px;
         padding-left: 19px;
@@ -2627,3 +2629,6 @@ h2.title {
     .cstyletabitem{
         margin-top: 22px;
     }
+.swiper-container {
+    z-index: 0;
+}

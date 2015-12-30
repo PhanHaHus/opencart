@@ -29,15 +29,15 @@
                     <div style="padding: 7px 3px 10px 3px;">
                         <div class="online1">
                             Trực tuyến :<b>
-                                <b>1</b></b>
+                                <b>2</b></b>
                         </div>
                         <div class="online2">
                             Truy cập trong ngày : <b>
-                                12</b>
+                                14</b>
                         </div>
                         <div class="online3">
                             Tổng số truy cập : <b>
-                                94</b>
+                                98</b>
 
                         </div>
                     </div>

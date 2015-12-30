@@ -30,7 +30,7 @@
         <link href="catalog/view/theme/atv1511/stylesheet/responsive.css" rel="stylesheet">
         <link href="catalog/view/theme/atv1511/stylesheet/main.css" rel="stylesheet">
         <link href="catalog/view/theme/atv1511/stylesheet/swiper.min.css" rel="stylesheet">
-        
+
         <script src="catalog/view/theme/atv1511/js/html5shiv.js"></script>
         <script src="catalog/view/theme/atv1511/js/jquery.scrollUp.min.js"></script>
         <script src="catalog/view/theme/atv1511/js/main.js"></script>
@@ -56,116 +56,90 @@
     </head>
     <body class="<?php echo $class; ?>">
         <div class="content">
-        <header id="header">
-            <div class="header_top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="contactinfo">
-                                <ul class="nav nav-pills">
-                                    <li><a href="#"><i class="fa fa-phone"></i><?php echo $telephone; ?></a></li>
-                                    <li><a href="#"><i class="fa fa-envelope"></i>abc@gmail.com</a></li>
-                                    <li><?php echo $language; ?></li>
-                                </ul>
+            <header id="header">
+                <div class="header_top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="contactinfo">
+                                    <ul class="nav nav-pills">
+                                        <li><a href="#"><i class="fa fa-phone"></i><?php echo $telephone; ?></a></li>
+                                        <li><a href="#"><i class="fa fa-envelope"></i>abc@gmail.com</a></li>
+                                        <li><?php echo $language; ?></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="social-icons pull-right">
-                                <ul class="nav navbar-nav">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
+                            <div class="col-sm-6">
+                                <div class="social-icons pull-right">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="header-middle">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="logo pull-left">
-                                <?php if ($logo) { ?>
-                                <a href="<?php echo $home; ?>"><img id="logo" src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-                                <?php } else { ?>
-                                <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-                                <?php } ?>
+                <div class="header-middle">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="logo pull-left">
+                                    <?php if ($logo) { ?>
+                                    <a href="<?php echo $home; ?>"><img id="logo" src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+                                    <?php } else { ?>
+                                    <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+                                    <?php } ?>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-8">
-                            <div class="shop-menu pull-right">
-                                <div class="shop-menu-top pull-right">
-                                    <div class="search_box">
-                                        <?php echo $search; ?>
-                                    </div>
-                                    <div class="cart_box">
-                                        <?php echo $cart; ?>
+                            <div class="col-sm-8">
+                                <div class="shop-menu pull-right">
+                                    <div class="shop-menu-top pull-right">
+                                        <div class="search_box">
+                                            <?php echo $search; ?>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <ul class="nav navbar-nav pull-right">
-                                    <li><a href="<?php echo $wishlist; ?>" id="wishlist-total" title="<?php echo $text_wishlist; ?>"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_wishlist; ?></span></a></li>
-                                    <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-crosshairs"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
-                                    <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
-                                    <li class="dropdown"><a href="<?php echo $account; ?>" title="<?php echo $text_account; ?>" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_account; ?></span> <span class="caret"></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-right">
-                                            <?php if ($logged) { ?>
-                                            <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
-                                            <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
-                                            <li><a href="<?php echo $transaction; ?>"><?php echo $text_transaction; ?></a></li>
-                                            <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
-                                            <li><a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a></li>
-                                            <?php } else { ?>
-                                            <li><a href="<?php echo $register; ?>"><?php echo $text_register; ?></a></li>
-                                            <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li>
-                                            <?php } ?>
-                                        </ul>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="header-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-9">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
+                <div class="header-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="mainmenu pull-left">
+                                    <ul class="nav navbar-nav collapse navbar-collapse">
+                                        <li><a href="<?php echo $home; ?>" class="active">Trang chủ</a></li>
+                                        <li><a href="<?php echo HTTP_SERVER;?>?route=product/allproduct" >Tất Cả Sản Phẩm</a></li>
+                                        <li class="dropdown"><a href="#">Cửa Hàng<i class="fa fa-angle-down"></i></a>
+                                            <ul role="menu" class="sub-menu">
+                                                <li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li> 
+                                                <li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
+                                                <?php if (!$logged) { ?>
+                                                <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li> 
+                                                <?php } ?>
+                                            </ul>
+                                        </li> 
+                                        <li><a href="<?php echo HTTP_SERVER;?>?route=information/information&information_id=4">Giới thiệu</a></li>
+                                        <li><a href="<?php echo $contact; ?>">Liên Hệ</a></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="mainmenu pull-left">
-                                <ul class="nav navbar-nav collapse navbar-collapse">
-                                    <li><a href="<?php echo $home; ?>" class="active">Trang chủ</a></li>
-                                    <li><a href="<?php echo HTTP_SERVER;?>?route=product/allproduct" >Tất Cả Sản Phẩm</a></li>
-                                    <li class="dropdown"><a href="#">Cửa Hàng<i class="fa fa-angle-down"></i></a>
-                                        <ul role="menu" class="sub-menu">
-                                            <li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li> 
-                                            <li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
-                                            <?php if (!$logged) { ?>
-                                            <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li> 
-                                            <?php } ?>
-                                        </ul>
-                                    </li> 
-                                    <li><a href="<?php echo HTTP_SERVER;?>?route=information/information&information_id=4">Giới thiệu</a></li>
-                                    <li><a href="<?php echo $contact; ?>">Liên Hệ</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        <!-- Default -->
+            </header>
+            <!-- Default -->
 
