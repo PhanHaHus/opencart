@@ -61,7 +61,7 @@
         <div class="container">
             <div class="row">
                 <?php echo $powered; ?>
-                <p class="pull-right">Designed by <span><a href="#">hapt</a></span></p>
+                <p class="pull-right">Designed by <span><a href="#">phanthanhhak55hus@gmail.com</a></span></p>
             </div>
         </div>
     </div>
