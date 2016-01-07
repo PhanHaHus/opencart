@@ -671,6 +671,17 @@ ul.sub-menu {
     margin-top: 20px;
     border: none;
 }
+.contact .wrap{ 
+    border: 1px solid #DDD;
+}
+.contact .wrap span{ 
+    display: block;
+}
+.contact .wrap.shopping-cart{ 
+    text-align: center;
+    padding: 33px 0px;
+    margin-bottom: 30px;
+}
 .left-sidebar h2, .brands_products h2,#column-right h2 {
     color: #FE980F;
     font-family: 'Roboto', sans-serif;
@@ -680,7 +691,7 @@ ul.sub-menu {
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    z-index:3;
+    /*z-index:3;*/
 }
 #column-right .product-special{
     padding-left: 15px;
