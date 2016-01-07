@@ -2642,3 +2642,16 @@ h2.title {
     height: 345px;
     overflow: hidden;
 }
+.contact img{
+    max-width: 235px;
+}
+.contact p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    MARGIN-TOP: 16PX;
+    Text-transform: uppercase;
+}
+.contact p.support{
+    color: red;
+}
