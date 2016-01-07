@@ -73,6 +73,7 @@ class ControllerCommonColumnRight extends Controller {
 				}
 			}
 		}
+                $data['telephone'] = $this->config->get('config_telephone');
                 $data['special_products'] = $special_products;
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_right.tpl')) {
 			return $this->load->view($this->config->get('config_template') . '/template/common/column_right.tpl', $data);

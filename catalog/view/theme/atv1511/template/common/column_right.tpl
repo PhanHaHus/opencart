@@ -48,7 +48,7 @@
             <h2> Lien he</h2>
             <img src="lien-he.jpg">
             <p class="support">Tư vấn sản phẩm</p>
-            <p>0985621989</p>
+            <p><?php echo $telephone; ?></p>
         </div>
         
 </aside>
