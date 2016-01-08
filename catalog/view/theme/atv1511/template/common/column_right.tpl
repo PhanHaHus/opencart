@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="contact">
-            <h2> Lien he</h2>
+            <h2> Liên hệ</h2>
             <img src="lien-he.jpg">
             <p class="support">Tư vấn sản phẩm</p>
             <p><?php echo $telephone; ?></p>
