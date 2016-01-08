@@ -6,6 +6,13 @@
 </aside>
 <?php } ?>
 <aside id="column-right" class="col-sm-3 hidden-xs">
+    <div class="contact">
+        <h2>Giỏ hàng của bạn</h2>
+        <div class="wrap shopping-cart">
+            <span >Sản phẩm trong giỏ: <b>0</b></span><br>
+            <span >Tổng giá trị: <b>0 VNĐ</b></span>
+        </div>
+    </div>
     <h2>Sản phẩm bán chạy</h2>
     <div class="panel-group category-products" id="accordian"><!--category-productsr-->
         <div class="content">
@@ -45,10 +52,12 @@
             </div>
         </div>
         <div class="contact">
-            <h2> Liên hệ</h2>
-            <img src="lien-he.jpg">
-            <p class="support">Tư vấn sản phẩm</p>
-            <p><?php echo $telephone; ?></p>
+            <h2>Hỗ trợ trực tuyến</h2>
+            <div class="wrap">
+                <img src="lien-he.jpg">
+                <p class="support">Tư vấn sản phẩm</p>
+                <p><?php echo $telephone; ?></p>
+            </div>
         </div>
         
 </aside>
