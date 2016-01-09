@@ -60,7 +60,7 @@ class ControllerCommonColumnLeft extends Controller {
 				}
 			}
 		}
-
+                $data['telephone'] = $this->config->get('config_telephone');
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/column_left.tpl')) {
 			return $this->load->view($this->config->get('config_template') . '/template/common/column_left.tpl', $data);
 		} else {

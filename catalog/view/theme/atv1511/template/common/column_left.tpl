@@ -3,6 +3,14 @@
     <?php foreach ($modules as $module) { ?>
     <?php echo $module; ?>
     <?php } ?>
+    <div class="contact">
+        <h2>Hỗ trợ trực tuyến</h2>
+        <div class="wrap">
+            <img src="lien-he.jpg">
+            <p class="support">Tư vấn sản phẩm</p>
+            <p><?php echo $telephone; ?></p>
+        </div>
+    </div>
     <div class="cstyletabitem">
         <div class="cBox tabden">
             <div class="bT_sR">
@@ -33,11 +41,11 @@
                         </div>
                         <div class="online2">
                             Truy cập trong ngày : <b>
-                                14</b>
+                                34</b>
                         </div>
                         <div class="online3">
                             Tổng số truy cập : <b>
-                                98</b>
+                                198</b>
 
                         </div>
                     </div>

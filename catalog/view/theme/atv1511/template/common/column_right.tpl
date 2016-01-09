@@ -51,13 +51,6 @@
                 </script>
             </div>
         </div>
-        <div class="contact">
-            <h2>Hỗ trợ trực tuyến</h2>
-            <div class="wrap">
-                <img src="lien-he.jpg">
-                <p class="support">Tư vấn sản phẩm</p>
-                <p><?php echo $telephone; ?></p>
-            </div>
-        </div>
+        
         
 </aside>

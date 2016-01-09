@@ -121,7 +121,7 @@
                                 </div>
                                 <div class="mainmenu pull-left">
                                     <ul class="nav navbar-nav collapse navbar-collapse">
-                                        <li><a href="<?php echo $home; ?>" class="active">Trang chủ</a></li>
+                                        <li><a href="<?php echo $home; ?>" class="active"><img id="home" src="<?php echo HTTP_SERVER;?>catalog/view/theme/atv1511/image/home.png">Trang chủ</a></li>
                                         <li><a href="<?php echo HTTP_SERVER;?>?route=product/allproduct" >Tất Cả Sản Phẩm</a></li>
                                         <li class="dropdown"><a href="#">Cửa Hàng<i class="fa fa-angle-down"></i></a>
                                             <ul role="menu" class="sub-menu">
