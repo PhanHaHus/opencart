@@ -31,6 +31,10 @@
         <link href="catalog/view/theme/atv1511/stylesheet/main.css" rel="stylesheet">
         <link href="catalog/view/theme/atv1511/stylesheet/swiper.min.css" rel="stylesheet">
 
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
         <script src="catalog/view/theme/atv1511/js/html5shiv.js"></script>
         <script src="catalog/view/theme/atv1511/js/jquery.scrollUp.min.js"></script>
         <script src="catalog/view/theme/atv1511/js/main.js"></script>
