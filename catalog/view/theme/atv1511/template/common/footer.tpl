@@ -1,20 +1,3 @@
-<div class="slick">
-    <div><h3>1</h3></div>
-    <div><h3>2</h3></div>
-    <div><h3>3</h3></div>
-    <div><h3>4</h3></div>
-    <div><h3>5</h3></div>
-    <div><h3>6</h3></div>
-</div>
-<script>
-    $('.slick').slick({
-        autoplay: true,
-        arrows: true,
-        fade: true,
-        slidesToShow: 3,
-        speed: 500
-    });
-</script>			
 <footer id="footer">
     <div class="footer-widget">
         <div class="container">
