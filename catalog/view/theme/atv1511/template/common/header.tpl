@@ -131,9 +131,6 @@
                                             <ul role="menu" class="sub-menu">
                                                 <li><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></li> 
                                                 <li><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a></li>
-                                                <?php if (!$logged) { ?>
-                                                <li><a href="<?php echo $login; ?>"><?php echo $text_login; ?></a></li> 
-                                                <?php } ?>
                                             </ul>
                                         </li> 
                                         <li><a href="<?php echo HTTP_SERVER;?>?route=information/information&information_id=4">Giới thiệu</a></li>
