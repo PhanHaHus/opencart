@@ -427,6 +427,7 @@ $('select[name=\'recurring_id\'], input[name="quantity"]').change(function(){
 //--></script>
 <script type="text/javascript"><!--
 $('#button-cart').on('click', function() {
+    return;
 	$.ajax({
 		url: 'index.php?route=checkout/cart/add',
 		type: 'post',

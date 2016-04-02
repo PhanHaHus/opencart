@@ -1739,3 +1739,25 @@
 2016-01-11 4:20:28 - PHP Notice:  Undefined index: price2 in D:\xampp1\htdocs\opencart\admin\controller\catalog\product.php on line 1416
 2016-01-11 4:20:28 - PHP Notice:  Undefined index: price2 in D:\xampp1\htdocs\opencart\admin\controller\catalog\product.php on line 1416
 >>>>>>> 8f5bd024835a12e32e675f9167b1e16ebf333bd5
+2016-04-02 11:19:03 - PHP Notice:  Error: Unknown column 'oc_product.price2' in 'field list'<br />Error No: 1054<br />select oc_product.product_id,oc_product.image,oc_product.price,oc_product.price2
+                ,oc_product_description.name 
+                from oc_product 
+                JOIN oc_product_special
+                 ON oc_product.product_id=oc_product_special.product_id 
+                JOIN oc_product_description
+                  ON oc_product_description.product_id = oc_product.product_id GROUP BY oc_product_description.product_id LIMIT 5  
+                 in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 41
+2016-04-02 11:19:03 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 12
+2016-04-02 11:19:03 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 13
+2016-04-02 11:19:03 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 23
+2016-04-02 11:19:25 - PHP Notice:  Error: Unknown column 'oc_product.price2' in 'field list'<br />Error No: 1054<br />select oc_product.product_id,oc_product.image,oc_product.price,oc_product.price2
+                ,oc_product_description.name 
+                from oc_product 
+                JOIN oc_product_special
+                 ON oc_product.product_id=oc_product_special.product_id 
+                JOIN oc_product_description
+                  ON oc_product_description.product_id = oc_product.product_id GROUP BY oc_product_description.product_id LIMIT 5  
+                 in C:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 41
+2016-04-02 11:19:25 - PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 12
+2016-04-02 11:19:25 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\controller\common\column_right.php on line 13
+2016-04-02 11:19:25 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\opencart\catalog\view\theme\atv1511\template\common\column_right.tpl on line 23
