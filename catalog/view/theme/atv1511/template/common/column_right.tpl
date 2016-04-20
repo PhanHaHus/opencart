@@ -27,7 +27,7 @@
                                     <img src="<?php echo 'http://'.$_SERVER['HTTP_HOST'].'/image/'.$special_product['image']; ?>">
                                     <?php echo $special_product['name']; ?><br>
                                 </a>
-                                <span class="price"><?php echo $special_product['price']; ?> VND</span>
+                                <span class="price"><?php echo ceil($special_product['price']); ?> VND</span>
                             </div>
                         </div>
                         <?php } ?>
