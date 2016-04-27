@@ -2713,3 +2713,7 @@ h2.title {
 marquee{
     height: 300px;
 }
+
+.thumbnails .image-additional{
+    display: inline-block;
+}
